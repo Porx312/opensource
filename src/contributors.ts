@@ -7,6 +7,7 @@ interface Contributor {
   // remember to fetch updates to avoid conflicts
   const contributors: Contributor[] = [
     { name: "Codeporx", githubUsername: "Porx312" },
+    { name: "Codeporx2.0", githubUsername: "codeporx" },
     //add your own name and github username here
   ]
   
