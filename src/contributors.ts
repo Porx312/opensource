@@ -3,9 +3,11 @@ interface Contributor {
     githubUsername: string;
   }
   
+  // Add your name and GitHub username here	
+  // remember to fetch updates to avoid conflicts
   const contributors: Contributor[] = [
     { name: "Codeporx", githubUsername: "Porx312" },
-    // Add your name and GitHub username here	
+    //add your own name and github username here
   ]
   
   async function createContributorCard(contributor: Contributor): Promise<HTMLElement> {
