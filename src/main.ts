@@ -1,4 +1,4 @@
-import { renderContributors } from "./ContrubutorsList"
+import { renderContributors } from "./contributors"
 import "./style.css"
 
 document.addEventListener("DOMContentLoaded", () => {
